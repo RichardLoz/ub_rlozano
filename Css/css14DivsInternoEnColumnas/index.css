@@ -1,0 +1,96 @@
+*
+{
+    box-sizing: border-box;
+
+}
+
+h1
+{
+    font-size: 40px;
+    text-align: center;
+}
+
+.padre
+{
+    background: skyblue;
+    display: flex;
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.padre .hijo
+{
+    background: grey;
+    text-align: center;
+    height: auto;
+    width: 390px;
+    margin: 10px;
+    padding: 20px;
+    float: left;
+}
+
+.padre .uno
+{
+    background: grey;
+    text-align: center;
+    height: 700px;
+    width: 350px;
+    margin: 10px;
+    padding: 20px;
+    float: left;
+}
+
+.uno img
+{
+    max-width: 60%;
+    max-height: 60%;
+    margin: 5%;
+}
+
+.padre .dos
+{
+    width: 450px ;
+    height: 300px;
+}
+
+.padre .tres
+{
+    width: 450px ;
+    height: 300px;
+}
+
+.padre .cuatro
+{
+    width: 450px ;
+    height: 300px;
+    
+}
+
+.padre .cinco
+{
+    width: 450px ;
+    height: 300px;
+}
+.padre .seis
+{
+    background: grey;
+    text-align: center;
+    height: auto;
+    width: 250px;
+    margin: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    clear: both;
+}
+
+.seis img
+{
+    max-width: 60%;
+    max-height: 60%;
+    margin: 5%;
+}

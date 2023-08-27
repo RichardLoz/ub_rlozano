@@ -1,0 +1,21 @@
+#divArriba {
+	margin:auto; 
+	width:50%; 
+	background-color:lightblue;
+}
+
+
+#divMedio {
+	padding-left:10%;
+	margin:auto; 
+	width:60%; 
+	background-color:MediumSeaGreen;
+}
+
+#divAbajo {
+	padding-left: 8%;
+	box-sizing:border-box;
+	margin:auto; 
+	width:50%; 
+	background-color:rgb(165, 233, 242);
+}
