@@ -4,10 +4,9 @@
 
 }
 
-h1
-{
-    font-size: 40px;
-    text-align: center;
+h1{
+    margin-bottom: 20px;
+    width: 100%;
 }
 
 .padre
@@ -15,65 +14,59 @@ h1
     background: skyblue;
     display: flex;
     width: 80%;
-    height: auto;
     margin-left: auto;
     margin-right: auto;
-    align-items: center;
     flex-wrap: wrap;
+    justify-content: space-between;
 
 }
 
-.padre .hijo
+.hijo
 {
     background: grey;
     text-align: center;
-    height: auto;
-    width: 390px;
+    width: calc(20% - 20px);
     margin: 10px;
     padding: 20px;
-    float: left;
+}
+
+.hijo img {
+    max-width: 60%;
+    max-height: 60%;
+    margin: 5%;
 }
 
 .padre .uno
 {
     background: grey;
     text-align: center;
-    height: 700px;
-    width: 350px;
-    margin: 10px;
-    padding: 20px;
+    height: 900px;
+    width: 250px;
     float: left;
-}
-
-.uno img
-{
-    max-width: 60%;
-    max-height: 60%;
-    margin: 5%;
 }
 
 .padre .dos
 {
-    width: 450px ;
-    height: 300px;
+    width: 250px ;
+    height: 600px;
 }
 
 .padre .tres
 {
-    width: 450px ;
+    width: 250px ;
     height: 300px;
 }
 
 .padre .cuatro
 {
-    width: 450px ;
+    width: 250px ;
     height: 300px;
     
 }
 
 .padre .cinco
 {
-    width: 450px ;
+    width: 250px ;
     height: 300px;
 }
 .padre .seis
@@ -88,9 +81,48 @@ h1
     clear: both;
 }
 
-.seis img
-{
-    max-width: 60%;
-    max-height: 60%;
-    margin: 5%;
+.padre .siete{
+    width: 250px ;
+    height: 300px;
+}
+
+.padre .ocho{
+    width: 250px ;
+    height: 300px;
+}
+
+
+
+/* Media queries para ajustar el número de columnas */
+@media (max-width: 1280px) {
+    .hijo {
+        width: calc(25% - 20px); /* Cuatro elementos en una fila */
+    }
+}
+
+@media (max-width: 960px) {
+    .hijo {
+        width: calc(33.33% - 20px); /* Tres elementos en una fila */
+    }
+}
+
+@media (max-width: 768px) {
+    .hijo {
+        width: calc(50% - 20px); /* Dos elementos en una fila */
+    }
+}
+
+/* Ajustes para ubicar los divs debajo de los divs 3, 4 y 5 */
+@media (max-width: 768px) {
+    .seis {
+        order: 3; /* Cambia el orden para que div 6 esté debajo de div 3 */
+    }
+
+    .siete {
+        order: 4; /* Cambia el orden para que div 7 esté debajo de div 4 */
+    }
+
+    .ocho {
+        order: 5; /* Cambia el orden para que div 8 esté debajo de div 5 */
+    }
 }
