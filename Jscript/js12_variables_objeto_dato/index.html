@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Variables Objeto Dato</title>
+</head>
+<body>
+
+    <div>
+        <h1>Consignas del ejercicio</h1>
+
+        <ol class="consigna">
+            <li>Declarar y hacer uso de objetos de dato (datos de tipo objeto)</li>
+            <li>Cargar de 2 personas en un array por programa</li>
+            <li>Dejar de usar la función prompt() para el ingreso de datos. Armar un contenedor para el ingreso de datos desde consola (solo inputs sin formulario)</li>
+            <li>Dejar de usar document.write() y escribir contenido dentro de un elemento html (puede ser un div)</li>
+            <li>Dos botones para llamar a dos funciones. Una para cargar un nuevo objeto de dato por teclado y otra para mostrar en formato de tabla el array completo de elementos con su longitud</li>
+            <li>Un tercer procedimiento para ocultar el elemento de presentación (usando el parámetro de estilo display:none).</li>
+        </ol>
+    </div>
+
+    <div class="data">
+        <h2>Alta de Empleado</h2>
+        <div class="entrada">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre">
+        </div>
+        <div class="entrada">
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido" id="apellido">
+        </div>
+        <div class="entrada">
+            <label for="nacimiento">Fecha de ingreso:</label>
+            <input type="date" name="nacimiento" id="nacimiento">
+        </div>
+        <div>
+            <button id="crearPersona">Crear Empleado</button>
+        </div>
+    </div>
+
+    <div id="botones">
+        <button id="mostrar">Listar Empleados</button>
+        <button id="ocultar">Ocultar Empleados</button>
+    </div>
+
+    <div id="tabla">
+        <h2>Lista de Empleados</h2>
+        <table id="tablaPersonas" style="display: none;"></table>
+        <h4>Longitud del arreglo de objetos: <span id="long">0</span></h4>
+    </div>
+    
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
