@@ -1,0 +1,86 @@
+
+{
+    "lenguajes_de_programacion": [
+      {
+        "nombre": "JavaScript",
+        "descripcion": "Un lenguaje de programación ampliamente utilizado en desarrollo web.",
+        "anio_creacion": 1995,
+        "creador": "Brendan Eich",
+        "paradigmas": ["Imperativo", "Orientado a objetos", "Funcional"],
+        "usos_destacados": ["Desarrollo web", "Servidor (Node.js)", "Aplicaciones de escritorio (Electron)"]
+      },
+      {
+        "nombre": "Python",
+        "descripcion": "Un lenguaje de programación versátil y fácil de aprender.",
+        "anio_creacion": 1991,
+        "creador": "Guido van Rossum",
+        "paradigmas": ["Multiparadigma"],
+        "usos_destacados": ["Desarrollo web (Django, Flask)", "Ciencia de datos (NumPy, Pandas)", "Automatización"]
+      },
+      {
+        "nombre": "Java",
+        "descripcion": "Un lenguaje de programación de propósito general con una fuerte comunidad.",
+        "anio_creacion": 1995,
+        "creador": "James Gosling",
+        "paradigmas": ["Orientado a objetos", "Imperativo"],
+        "usos_destacados": ["Desarrollo de aplicaciones empresariales", "Desarrollo de Android"]
+      },
+      {
+        "nombre": "C++",
+        "descripcion": "Un lenguaje de programación que combina programación orientada a objetos y procedimental.",
+        "anio_creacion": 1985,
+        "creador": "Bjarne Stroustrup",
+        "paradigmas": ["Orientado a objetos", "Procedimental"],
+        "usos_destacados": ["Desarrollo de videojuegos", "Sistemas embebidos"]
+      },
+      {
+        "nombre": "Ruby",
+        "descripcion": "Un lenguaje de programación conocido por su elegancia y facilidad de uso.",
+        "anio_creacion": 1995,
+        "creador": "Yukihiro Matsumoto",
+        "paradigmas": ["Orientado a objetos", "Funcional"],
+        "usos_destacados": ["Desarrollo web (Ruby on Rails)", "Automatización de tareas"]
+      },
+      {
+        "nombre": "Swift",
+        "descripcion": "Un lenguaje de programación desarrollado por Apple para aplicaciones iOS y macOS.",
+        "anio_creacion": 2014,
+        "creador": "Apple Inc.",
+        "paradigmas": ["Orientado a objetos", "Funcional"],
+        "usos_destacados": ["Desarrollo de aplicaciones iOS y macOS"]
+      },
+      {
+        "nombre": "PHP",
+        "descripcion": "Un lenguaje de programación ampliamente utilizado en desarrollo web.",
+        "anio_creacion": 1994,
+        "creador": "Rasmus Lerdorf",
+        "paradigmas": ["Imperativo", "Orientado a objetos"],
+        "usos_destacados": ["Desarrollo web (WordPress, Joomla)", "Procesamiento de formularios web"]
+      },
+      {
+        "nombre": "Go",
+        "descripcion": "Un lenguaje de programación diseñado por Google para la concurrencia y el rendimiento.",
+        "anio_creacion": 2009,
+        "creador": "Robert Griesemer, Rob Pike, Ken Thompson",
+        "paradigmas": ["Imperativo", "Concurrente"],
+        "usos_destacados": ["Desarrollo de servidores web", "Programación en la nube"]
+      },
+      {
+        "nombre": "Rust",
+        "descripcion": "Un lenguaje de programación diseñado para la seguridad y el rendimiento de sistemas.",
+        "anio_creacion": 2010,
+        "creador": "Mozilla Research",
+        "paradigmas": ["Multiparadigma"],
+        "usos_destacados": ["Desarrollo de sistemas de bajo nivel", "Programación de juegos"]
+      },
+      {
+        "nombre": "Kotlin",
+        "descripcion": "Un lenguaje de programación moderno desarrollado por JetBrains para aplicaciones Android.",
+        "anio_creacion": 2011,
+        "creador": "JetBrains",
+        "paradigmas": ["Orientado a objetos", "Funcional"],
+        "usos_destacados": ["Desarrollo de aplicaciones Android"]
+      }
+    ]
+  }
+  
