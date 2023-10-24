@@ -1,43 +1,43 @@
 <?php
 
-$objRenglonAutomobiles = new stdclass;
-$objRenglonAutomobiles->codAuto = "aut1";
-$objRenglonAutomobiles->Descripcion = "Audi A4 2018";
-$objRenglonAutomobiles->PrecioAuto = 400000;
-$objRenglonAutomobiles->Cantidad = 4;
+$objRenglonAutomoviles = new stdclass;
+$objRenglonAutomoviles->codAuto = "aut1";
+$objRenglonAutomoviles->Descripcion = "Audi A4 2018";
+$objRenglonAutomoviles->PrecioAuto = 400000;
+$objRenglonAutomoviles->Cantidad = 4;
 
 echo "<h1>Variables Objeto </h1><br><br>";
-echo " <h1 style='color:blue'> \$objRenglonAutomobiles </h1>";
-echo "<h3>codAuto: " . $objRenglonAutomobiles->codAuto . "<br>";
-echo "Descripcion: " . $objRenglonAutomobiles->Descripcion . "<br>";
-echo "PrecioAuto: $" . $objRenglonAutomobiles->PrecioAuto . "<br>";
-echo "Cantidad: " . $objRenglonAutomobiles->Cantidad . "<br> </h3>";
-echo "<h1 style='color:blue'>\$objRenglonAutomobiles : ". gettype($objRenglonAutomobiles)." </h1>";
+echo " <h1 style='color:blue'> \$objRenglonAutomoviles </h1>";
+echo "<h3>codAuto: " . $objRenglonAutomoviles->codAuto . "<br>";
+echo "Descripcion: " . $objRenglonAutomoviles->Descripcion . "<br>";
+echo "PrecioAuto: $" . $objRenglonAutomoviles->PrecioAuto . "<br>";
+echo "Cantidad: " . $objRenglonAutomoviles->Cantidad . "<br> </h3>";
+echo "<h1 style='color:blue'>\$objRenglonAutomoviles : ". gettype($objRenglonAutomoviles)." </h1>";
 
 
 
-$RenglonesAutomobiles = [];
-array_push($RenglonesAutomobiles,$objRenglonAutomobiles);
+$RenglonesAutomoviles = [];
+array_push($RenglonesAutomoviles,$objRenglonAutomoviles);
 
-echo "<h1 style='color:blue'>\$RenglonesAutomobiles : <br>";
+echo "<h1 style='color:blue'>\$RenglonesAutomoviles : <br>";
 
 
-foreach($RenglonesAutomobiles as $objRenglonAutomobiles){
-    echo "<h4> Cod Auto : " . $objRenglonAutomobiles->codAuto . "</h4>";
-    echo "<h4> Descripcion: " . $objRenglonAutomobiles->Descripcion . "</h4>";
-    echo "<h4> Precio Auto : " . $objRenglonAutomobiles->PrecioAuto . "</h4>";
-    echo "<h4> Cantidad : " . $objRenglonAutomobiles->Cantidad . "</h4>";
+foreach($RenglonesAutomoviles as $objRenglonAutomoviles){
+    echo "<h4> Cod Auto : " . $objRenglonAutomoviles->codAuto . "</h4>";
+    echo "<h4> Descripcion: " . $objRenglonAutomoviles->Descripcion . "</h4>";
+    echo "<h4> Precio Auto : " . $objRenglonAutomoviles->PrecioAuto . "</h4>";
+    echo "<h4> Cantidad : " . $objRenglonAutomoviles->Cantidad . "</h4>";
 };
-echo "<h3>Cantidad de renglones en el arreglo :" . count($RenglonesAutomobiles) . "</h3>";
+echo "<h3>Cantidad de renglones en el arreglo :" . count($RenglonesAutomoviles) . "</h3>";
 
-$objRenglonesAutomobiles = new stdClass();
+$objRenglonesAutomoviles = new stdClass();
 
-$objRenglonesAutomobiles->RenglonesAutomobiles=$RenglonesAutomobiles;
-$objRenglonesAutomobiles->cantidadRenglones= count($RenglonesAutomobiles);
+$objRenglonesAutomoviles->RenglonesAutomoviles=$RenglonesAutomoviles;
+$objRenglonesAutomoviles->cantidadRenglones= count($RenglonesAutomoviles);
 
-echo "<br><br><h3>Cantidad de renglones en el objRenglonesAutomobiles: " . $objRenglonesAutomobiles->cantidadRenglones . "</h3><br><br>";
+echo "<br><br><h3>Cantidad de renglones en el objRenglonesAutomoviles: " . $objRenglonesAutomoviles->cantidadRenglones . "</h3><br><br>";
 
-$jsonRenglonesAutomobiles = json_encode($objRenglonesAutomobiles);
-echo "<h3>" .$jsonRenglonesAutomobiles . "</h3>";
+$jsonRenglonesAutomoviles = json_encode($objRenglonesAutomoviles);
+echo "<h3>" .$jsonRenglonesAutomoviles . "</h3>";
 
 ?>
